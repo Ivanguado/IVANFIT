@@ -736,7 +736,7 @@ ol li a {
        height: 70px;
 }
 
-.color_nosotros{ background-color: #F00000 }
+.color_nosotros{ background-image: linear-gradient(to right, #FF0000, #FF0033, white  ); }
 
 .parrafo_article {
               line-height: 1.5rem;
