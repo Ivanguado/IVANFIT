@@ -1,4 +1,3 @@
-
 /*Html Gral*/
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
@@ -26,7 +25,7 @@ nav ul li {display: inline-block;
 }  
 
 ul li a { text-decoration: none;
-       color: black;
+       color:white;
        } 
 
 body { background-image: url(../Logoparalapag/fondopesa.png);  }                  
@@ -51,6 +50,7 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        margin-right: 20px;
        margin-left: 20px;
        font-size: 23px;
+       color: white;
 }
 
 .Position__nav__img{
@@ -61,6 +61,13 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        margin-right: 10px;
        margin-left: 10px;
        font-size: 23px;
+}
+
+.listas_posicion_index {
+       display: none;
+       position: relative;
+       left: 75px;
+       margin-bottom: 10px;
 }
 
 .flexbox_nav{
@@ -106,124 +113,41 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
 /*HTML INDEX*/
 
 .color_index{
-       background-color: #000000;
+       background-color:white;
 }
-
-
-.encabezado__model {
-       background-color:#000000 ;
-       width: 100%;
-       height:70px       }
-
-.texto_line {line-height: 2.0rem;
-                     text-align: center ;} 
-
-
-
-.texto_article { 
-              color: #F0F0F0 ;
-              width: 100%;
-              height: auto;
-              margin: 14px 60px 50px auto ;
-              border: 10px ;
-              font-size: 6px;
-              line-height: 10px;
-       }
-
-.texto_article2{ 
-              color: #F0F0F0 ;
-              width: 90%;
-              height: auto;
-              margin: 50px 4% 50px 4% ;
-              border: 10px;
-              line-height: 2.0rem;
-              text-align: center;
-              display: inline-block;}
-
-.video{
-       width: 80%;
-       height: 500px;
-       position: center;
-       margin: 50px 13%;
-}
-
-.texto_article3{ 
-              color: #F0F0F0 ;
-              width: 80%;
-              height: auto;
-              margin: 15px 50px;
-              border: 10px;
-              line-height: 1.9rem;
-              text-align:center;
-              display: inline-block;
-              position: right;
-              font-size: 240%;
-              line-height: 120%;
-              margin: 5% 6%;}    
 
 .imagenes__section{
               display: inline;
-              position: right;
-              margin: 50px 70px;
-              width: 40%;
-              height: 40%;
+             
               }  
 
 
-.imagenes__index__img{
-                     width: 200px;
-                     height: auto;
-                     padding: 5px 20px;
-}
-
 .flexbox_article0{
        display: flex;
-       flex-direction: row;
-       justify-content: space-around;
-       align-items: center;
-       align-content: center;
-       background-color:#000000;
-       width: 105%;
-       font-size: 13px;
-       line-height: 20px;
-       text-align: center;
-       margin: 0% 2%
+   
 }
 
 .flexbox_article1 {
        display: block;
-       flex-direction: row;
-       justify-content: space-around;
-       align-items: center;
-       align-content: center;
-       background-color:#000000;
-       width: 105%;
-       margin-top: 50px;
+  
 }
 
 
 .flexbox_imgs {
        display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       background-color:#000000;
-       width: 500px;
-       height: 500px;
-       margin: 30px 27%;
+
 }
 
+.lexbox_article0{
+       display: flex;
 
-.listas_posicion_index{
-       position: relative;
-       left: 75px;
-       margin-bottom: 10px;
 }
-
 /* Mediaqueries Mobile */
-@media (min-width:375px){
+@media screen and (min-width:370px){
 .body{
        display: grid;
        grid-template-columns:25% 25% 25% 25%;
+       grid-template-rows: 79px 270px 280px 1055px 1250px 100px;
        grid-template-areas: 
        "nav nav nav nav"
        "header header header header"
@@ -232,97 +156,124 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        "div2 div2 div2 div2"
        "footer footer footer footer";
 }
-       
 
-       .listas_posicion_index {
-              display: none;
-              position: relative;
-              left: 75px;
-              margin-bottom: 10px;
-       } 
-       
-       .Position__nav__img{
 
-              display: inline-block;
-              margin-top: 0;
-              margin-bottom: 0; 
-       }
-
-       #nav{
-              grid-area:nav;
-              overflow: hidden;
-              }
-
-.flexbox_article0{
-              display: flex;
-              flex-direction: row;
-              justify-content: space-around;
-              align-items: center;
-              align-content: center;
-              background-color:#000000;
-              font-size: 13px;
-              line-height: 20px;
-              text-align: center;
-              }
-  
-              .texto_article { 
-                     color: #F0F0F0 ;
-                     width: 100%;
-                     height: auto;
-                     border: 10px ;
-              }
-
-              .flexbox_article1 {
-                     background-color:#000000;
-                     margin-top: 50px;
-              }
-
-              .texto_article2{ 
-                     color: #F0F0F0 ;
-                     height: auto;
-                     border: 10px;
-                     line-height: 2.0rem;
-                     text-align: center;
-                     display: inline-block;}
-
-              .video{
-                     width: 100%;
-                     margin-block: 2rem;
-              }  
-              
-              .flexbox_article2{
-                     display: block;
-                     background-color:#000000;
-              }
-              .flexbox_imgs {
-                     display: flex;
-                     flex-direction: row;
-                     flex-wrap: wrap;
-                     background-color:#000000;
-              }
-
-              .texto_article3{ 
-                     color: #F0F0F0 ;
-                     line-height: 1.9rem;
-                     text-align:center;
-                     justify-content: center;
-              }
-
-              .imagenes__index__img{
-                     width: 100%;
-                     padding: 5px 20px;
+.body{
+       background-color: black;
 }
 
+.index__listas {
+       text-decoration: none;
+       list-style: none;
+       font-family: 'Anton', sans-serif; 
+       position: relative;
+       margin: 0px 20px;
+       font-size: 25px;
+}
+
+/* Posicion del logo IVANFIT */
+       .Position__nav__img{
+       
+}
+
+/* Posicion de las listas*/
+       .listas_posicion_index {
+              display: none;
+        
+       } 
+
+/* Imagen general INDEX*/
+       .img_index{
+              width: 100%;
+       }
+
+
+
+       .texto_article { 
+              color:white ;
+              font-size: 14px;
+              line-height: 15px;
+              text-align: center;
+              font-weight: bolder;
+              margin: 50px 0px;
+
+          
+       }
+
+       .texto_article2{
+              color: white ;
+              font-size: 14px;
+              line-height: 15px;
+              text-align: center;
+              margin: 50px 0px;
+       }
+
+       .video{
+              width: 90%;
+              height: 400px;
+              margin: 50px 5%;
+       }
+
+ /*imagenes*/       
+
+ .grid__imgs {
+       display: grid;
+       grid-template-areas: 
+       "img1 img2"
+       "img3 img4"
+       "img5 img6";    
+       width: 70%; 
+       margin: 50px 15%;  
+
+} 
+
+
+#img1{
+grid-area: "img1";
+}
+
+#img2{
+       grid-area:"img2" ;
+}
+
+#img3{
+       grid-area:"img3" ;
+}
+
+#img4{
+       grid-area:"img4" ;
+}
+
+#img5{
+       grid-area: "img5";
+}
+#img6{
+       grid-area:"img6" ;
+}
+
+.imagenes__index__img{
+       width: 100%;
+       height: auto;
+
+}
+
+.texto_article3{
+       color: white ;
+       font-size: 14px;
+       line-height: 15px;
+       text-align: center;
+       margin: 50px 0px;
+}
 
 }
 
 /* Mediaqueries Tablet */
 
-@media (min-width:768px){
+@media screen and (max-width:760px){
 .body{
        display: grid;
        grid-template-columns: 25% 25% 25% 25% ;
-       grid-template-rows: 75px 350px 110px 700px 1200px 100px;
+       grid-template-rows: 79px 270px 150px 750px 1050px 100px;
        grid-template-areas: 
        "nav nav nav nav"
        "header header header header"
@@ -332,57 +283,16 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        "footer footer footer footer" ;
 }
 
-.imagenes__section{
-       display: inline;
-       } 
-
-.listas_posicion_index {
-       display: inline;
-}
-
-.img_index{
-       width: 100%;
-}
-
-.flexbox_article0 {
-       font-size: 19px;
-       width: 95%;
-}
-
-.video {
-       margin: 0;
-       height: 250px;
-}
 
 
 .grid__imgs {
        display: grid;
+       grid-template-columns: 10% 10% 10% 10%;
        grid-template-areas: 
        "img1 img2"
        "img3 img4"
        "img5 img6";    
-       width: 70%; 
-       justify-content: center;  
 }
-
-.texto_article2{ 
-       color: #F0F0F0 ;
-       width: 90%;
-       height: auto;
-       margin: 50px 4% 50px 4% ;
-       border: 10px;
-       line-height: 2.0rem;
-       text-align: center;
-       display: inline-block;}
-
-.texto_article3{ 
-       color: #F0F0F0;
-       line-height: 1.9rem;
-       text-align: center;
-       justify-content: center;
-       margin-top: 350px;
-       font-size: 25px;
-       }
 
 
 
@@ -409,18 +319,15 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        grid-area:"img6" ;
 }
 
-.flexbox_imgs {
-       margin: 19px 10%;
-}
 }
 
 /* Mediaqueries Desktop */
 
-@media (min-width:1024px){
+@media screen and (min-width:1024px){
        .body{
               display: grid;
               grid-template-columns: 25% 25% 25% 25% ;
-              grid-template-rows: 75px 345px 250px 650px 600px 100px;
+              grid-template-rows:79px 280px 180px 450px 630px 120px; 
               grid-template-areas: 
               "nav nav nav nav"
               "header header header header"
@@ -430,6 +337,25 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
               "footer footer footer footer" ;
 }
 
+.texto_article {
+       color: white;
+       width: 100%;
+       font-size: 19px;
+       line-height: 23px;
+       text-align: center;
+       font-weight: bolder;
+       margin: 50px 0px;
+   }
+
+.flexbox_article0{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       color: white;
+       width: 100% ;
+       height: 100px;
+}   
+
 .flexbox_footer {
        display: flex;
        flex-direction: row;
@@ -438,81 +364,32 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        align-items:center;
 }
 
-.flexbox_nav {
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       align-items:center;
-}
-
-.flexbox_article0 {
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
-       align-items: center;
-       align-content: center;
-       background-color: #000000;
-       width: 105%;
-       font-size: 157%;
-       line-height: 200%;
-       text-align: center;
-       margin: 0% 3%;
-}
-
-.flexbox_article1 {
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
-       align-items: center;
-       align-content: center;
-       background-color:#000000;
-       width: 100%;
-       height: 30%;
-       margin: 200px 10px;
-}
-
-
-
-.flexbox_imgs {
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       background-color:#000000;
-       width: 500px;
-       height: 500px;
-}
-
-.flexbox_nav{
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-       flex-wrap: wrap;
-}
-
-.texto_article2{ 
-       color: #F0F0F0 ;
-       width: 40%;
-       height: auto;
-       margin: 20px 4% 50px 4% ;
-       border: 10px;
-       line-height: 2rem;
+.texto_article2 {
+       color: white;
+       font-size: 20px;
+       line-height: 21px;
        text-align: left;
-       display: inline-block;
-       font-size: 150%;}
+       margin: 50px 5%;
+       width: 40%;
+   }
+   .video {
+       width: 150%;
+       height: 100%;
+       margin: 50px 5%;
+   }   
 
-.video{
-       width: 500px;
-       height: 500px;
-       position: right;
-       margin: px %;
+   .flexbox_article1 {
+       display: flex;
+       width: 100%;
+       height: auto;
+} 
 
-}
 
 .imagenes__index__img{
-       width: 200px;
-       height: auto;
-       padding: 5px;
+       padding: 10px;
+       margin: 0px;
 }
+
 
 .grid__imgs {
        display: grid;
@@ -520,62 +397,53 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        "img1 img2"
        "img3 img4"
        "img5 img6"; 
-       grid-column-gap: 10px;
-       grid-row-gap: 15px;    
+       margin: 0px 5%;
+       width: 40%;
+}
+
+.grid_imgs{
+       display: grid;
 }
 
 #img1{
-       grid-area: "img1";
+       grid-area: img1;
 }
 
 #img2{
-       grid-area:"img2" ;
+       grid-area:img2;
 }
 
 #img3{
-       grid-area:"img3" ;
+       grid-area:img3 ;
 }
 
 #img4{
-       grid-area:"img4" ;
+       grid-area:img4;
 }
 
 #img5{
-       grid-area: "img5";
+       grid-area:img5;
 }
 #img6{
-       grid-area:"img6" ;
+       grid-area:img6 ;
 }
-
-.flexbox_article2 {
-       display: flex;
-       
-}
-
 
 .texto_article3 {
-       color: #F0F0F0; 
-       width: 40%; 
-       height: 500px;
-       margin: 15px 50px; 
-       border: 10px; 
-       line-height: 1.9rem; 
-       text-align: center; 
-       display: inline-block; 
-       position: right;
-       font-size: 240%;
-       line-height: 120%;
-       margin: 0% 0%;
+       color: white;
+       font-size: 19px;
+       line-height: 30px;
        text-align: left;
+       margin: 0px 0px;
+       width: 40%;
    }
 
-.img_index{
+   .flexbox_article2 {
+       display: flex;
        width: 100%;
-}  
+       height: auto;
+   }
 
 }
-
-
 
 #body{
 display: grid;
@@ -587,7 +455,7 @@ grid-area:nav;
 
 #header{
 grid-area:header;
-height: 373px;
+
 }
 
 #main{
@@ -610,12 +478,11 @@ grid-area:footer;
 
 
 
+
 /*HTML EJERCICIOS*/
 
 .tamaño_nav {
        width: 100%;
-       height: 70px;
-
 }
 
 .color_body{ background-color: #303030;}
@@ -640,13 +507,11 @@ grid-area:footer;
 
               .Imagenes__figure{ 
                      display: inline;
-                     margin: 10px 60px;
               }
               
               .imagenes__img{ 
                      width: 400px;
-                     height: 400px;
-                     padding: 40px 40px}
+                     height: 400px;}
                      
 .lista_posicion_ej{
        position: relative;
@@ -655,22 +520,12 @@ grid-area:footer;
 
 .lista_posicion_{
        display: inline-block;
-       margin-top: 0;
-       margin-bottom: 0;
-       margin-right: 20px;
-       margin-left: 20px;
        font-size: 23px;
 }
 
 .logo_ejercicio{
        
-       top: 110px;
-       left: 0px;
        display: inline-block;
-       margin-top: 0;
-       margin-bottom: 0;
-       margin-right: 10%;
-       margin-left: 10px;
        font-size: 23px;
 }
 /*HTML FISIOLOGÍA*/
@@ -686,6 +541,8 @@ grid-area:footer;
                      list-style: none;
                      font-family: 'Anton', sans-serif; }
 
+
+
 ol li a {
        text-decoration: none;
        list-style: none
@@ -695,33 +552,21 @@ ol li a {
                             
 .lista_posicion_fis{
               position: relative;
-              left: 350px;
               } 
                             
 .fisiologia_position_li_nav{
               display: inline-block;
-              margin-top: 0;
-              margin-bottom: 0;
-              margin-right: 15px;
-              margin-left: 20px;
               font-size: 23px;
                             }
                             
 .fisiologia_position__nav__img{
               position: relative;
-              top: 0px;
-              left: 0px;
               display: inline-block;
-              margin-top: 0;
-              margin-bottom: 0;
-              margin-right: 10%;
-              margin-left: 10px;
               font-size: 23px;
                             }                            
 
 
 .espacio_listas{
-       margin: 30px;
        text-align: center;
        text-decoration: none;
 }
@@ -732,32 +577,23 @@ ol li a {
 /*HTML NOSOTROS*/
 
 .tamaño_nav {
-       width: 980px;
-       height: 70px;
-}
 
-.color_nosotros{ background-image: linear-gradient(to right, #FF0000, #FF0033, white  ); }
+}
 
 .parrafo_article {
               line-height: 1.5rem;
 	       text-align: center;
 	       width: 70%;
 	       height: auto;
-	       margin: 20px 160px;
 	       display: inline-block;  
 }
 
 .listas_position_nos{
        position: relative;
-       left: 300px;
 } 
 
 .nosotros_position_li_nav{
        display: inline-block;
-       margin-top: 0;
-       margin-bottom: 0;
-       margin-right: 20px;
-       margin-left: 20px;
        font-size: 23px;
 }
 
@@ -767,7 +603,6 @@ ol li a {
 
 .contacto_tamaño_nav {
        width: 980px;
-       height: 69px;
 }
 
 .color_contacto{ background-color: #C0C0C0 }
@@ -787,20 +622,11 @@ ol li a {
 
 .position_li{
        display: inline-block;
-       margin-top: 0;
-       margin-bottom: 0;
-       margin-right: 20px;
-       margin-left: 20px;
        font-size: 23px;
 }
 
 .position__img{
        position: relative;
-       left: 0px;
        display: inline-block;
-       margin-top: 0;
-       margin-bottom: 0;
-       margin-right: 10%;
-       margin-left: 10px;
        font-size: 23px;
 }
