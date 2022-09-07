@@ -576,6 +576,8 @@ ol li a {
 
 /*HTML NOSOTROS*/
 
+.color_nosotros{ background-image: linear-gradient(to right, #FF0000, #FF0033, white  ); }
+
 .tamaño_nav {
 
 }
