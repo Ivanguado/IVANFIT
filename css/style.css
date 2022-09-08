@@ -162,6 +162,8 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        background-color: black;
 }
 
+.color_letras{color: white;}
+
 .index__listas {
        text-decoration: none;
        list-style: none;
@@ -169,6 +171,7 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        position: relative;
        margin: 0px 20px;
        font-size: 25px;
+       color: white;
 }
 
 /* Posicion del logo IVANFIT */
