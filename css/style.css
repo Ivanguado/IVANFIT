@@ -504,7 +504,7 @@ grid-area:footer;
        width: 100%;
 }
 
-.color_body{ background-color: #303030;}
+.color_body{ background-color: black;}
 
 
 .ejercicio_listas { 
@@ -515,6 +515,7 @@ grid-area:footer;
 .ejercicio__h1{
               text-align: center;
               font-size: 200%;
+              color: #FF0000;
 }
 
 .ejercicio__lista{ 
@@ -547,6 +548,32 @@ grid-area:footer;
        display: inline-block;
        font-size: 23px;
 }
+
+#pectoral{
+       color: white;
+}
+#triceps{
+       color: white;
+}
+#biceps{
+       color: white;
+}
+#hombros{
+       color: white;
+}
+#abdomibales{
+       color: white;
+}
+#espalda{
+       color: white;
+}
+#piernas{
+       color: white;
+}
+
+
+
+
 /*HTML FISIOLOGÍA*/
 
 .html_fisiologia{ 
