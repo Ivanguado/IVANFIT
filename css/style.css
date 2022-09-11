@@ -112,10 +112,6 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
 
 /*HTML INDEX*/
 
-.color_index{
-       background-color:white;
-}
-
 .imagenes__section{
               display: inline;
              
@@ -145,7 +141,7 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
 /* Mediaqueries Mobile */
 @media screen and (min-width:370px){
 .body{
-       display: grid;
+       
        grid-template-columns:25% 25% 25% 25%;
        grid-template-rows: 79px 270px 280px 1055px 1250px 100px;
        grid-template-areas: 
@@ -195,7 +191,10 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
               line-height: 15px;
               text-align: center;
               font-weight: bolder;
-              margin: 50px 0px;
+              margin: 50px 10%;
+              width: 80%;
+
+            
 
           
        }
@@ -203,9 +202,11 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        .texto_article2{
               color: white ;
               font-size: 14px;
-              line-height: 15px;
+              line-height: 20px;
               text-align: center;
-              margin: 50px 0px;
+              width: 70%;
+              text-align: center;
+              margin: 0% 15% ;
        }
 
        .video{
@@ -216,20 +217,25 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
 
  /*imagenes*/       
 
- .grid__imgs {
+.grid__imgs {
        display: grid;
-       grid-template-areas: 
-       "img1 img2"
-       "img3 img4"
-       "img5 img6";    
-       width: 70%; 
-       margin: 50px 15%;  
+       grid-template-columns: 150px 150px;
+       grid-template-rows: 100px 100px 100px;
+       grid-column-gap: 30px;
+       grid-row-gap: 20px;
+       grid-template-areas:
+           "img1 img2"
+           "img3 img4"
+           "img5 img6";
+       margin: 0px 5%;
+       width: 45%;} 
 
-} 
-
+.grid_imgs{
+       display: grid;
+}
 
 #img1{
-grid-area: "img1";
+       grid-area: "img1";
 }
 
 #img2{
@@ -269,9 +275,9 @@ grid-area: "img1";
 
 /* Mediaqueries Tablet */
 
-@media screen and (max-width:760px){
+@media screen and (min-width:760px){
 .body{
-       display: grid;
+      
        grid-template-columns: 25% 25% 25% 25% ;
        grid-template-rows: 79px 270px 150px 750px 1050px 100px;
        grid-template-areas: 
@@ -284,17 +290,23 @@ grid-area: "img1";
 }
 
 
-
 .grid__imgs {
        display: grid;
-       grid-template-columns: 10% 10% 10% 10%;
-       grid-template-areas: 
-       "img1 img2"
-       "img3 img4"
-       "img5 img6";    
+       grid-template-columns: 150px 150px;
+       grid-template-rows: 100px 100px 100px;
+       grid-column-gap: 30px;
+       grid-row-gap: 20px;
+       grid-template-areas:
+           "img1 img2"
+           "img3 img4"
+           "img5 img6";
+           margin: 30px 30%;
+       width: 45%;}
+
+
+.grid_imgs{
+       display: grid;
 }
-
-
 
 #img1{
        grid-area: "img1";
@@ -325,7 +337,7 @@ grid-area: "img1";
 
 @media screen and (min-width:1024px){
        .body{
-              display: grid;
+             
               grid-template-columns: 25% 25% 25% 25% ;
               grid-template-rows:79px 280px 180px 450px 630px 120px; 
               grid-template-areas: 
@@ -367,14 +379,19 @@ grid-area: "img1";
 .texto_article2 {
        color: white;
        font-size: 20px;
-       line-height: 21px;
+       line-height: 26px;
        text-align: left;
-       margin: 50px 5%;
+       margin: 150px 5%;
        width: 40%;
    }
+
+   .article_video{
+       width: 50%;
+   }
+
    .video {
-       width: 150%;
-       height: 100%;
+       width: auto%;
+       height: auto%;
        margin: 50px 5%;
    }   
 
@@ -390,16 +407,18 @@ grid-area: "img1";
        margin: 0px;
 }
 
-
 .grid__imgs {
-       display: grid;
-       grid-template-areas: 
-       "img1 img2"
-       "img3 img4"
-       "img5 img6"; 
-       margin: 0px 5%;
-       width: 40%;
-}
+display: grid;
+grid-template-columns: 150px 150px;
+grid-template-rows: 100px 100px 100px;
+grid-column-gap: 30px;
+grid-row-gap: 20px;
+grid-template-areas:
+    "img1 img2"
+    "img3 img4"
+    "img5 img6";
+margin: 0px 5%;
+width: 45%;}
 
 .grid_imgs{
        display: grid;
