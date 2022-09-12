@@ -577,7 +577,7 @@ grid-area:footer;
 /*HTML FISIOLOGÍA*/
 
 .html_fisiologia{ 
-                     background-color: #C0C0C0 ; 
+                     background-color: black ; 
                      text-decoration : none;}
 
 .fisiologia_line-height{line-height: 2.5rem}
@@ -619,10 +619,19 @@ ol li a {
 
 .list-style-type { list-style-type: none;}
 
+.color_titulos{
+       color:#FF0000 ;
+       font-weight: bolder;
+}
+
+.color_parrafos{
+       color: white;
+}
+
 
 /*HTML NOSOTROS*/
 
-.color_nosotros{ background-image: linear-gradient(to right, #FF0000, #FF0033, white  ); }
+.color_nosotros{ background-image: linear-gradient(to right, #000000 , #000000 , #000000 , #000000 , #360404, #5c0808,  #a50d0d,  #ca0f0f, #db0e0e , #FF0033); }
 
 .tamaño_nav {
 
@@ -633,7 +642,8 @@ ol li a {
 	       text-align: center;
 	       width: 70%;
 	       height: auto;
-	       display: inline-block;  
+	       display: inline-block; 
+              color:#C0C0C0; 
 }
 
 .listas_position_nos{
@@ -649,11 +659,20 @@ ol li a {
 
 /*HTML CONTACTO*/
 
+.color_titulos_con{
+       color: #ca0f0f;
+}
+
+.color_p_con{
+       color: white;
+}
+
+
 .contacto_tamaño_nav {
        width: 980px;
 }
 
-.color_contacto{ background-color: #C0C0C0 }
+.color_contacto{ background-color: black }
 
 .article_line_height { 
                      line-height: 2.5rem;
