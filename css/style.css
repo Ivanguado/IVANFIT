@@ -576,57 +576,6 @@ grid-area:footer;
 
 /*HTML FISIOLOGÍA*/
 
-.html_fisiologia{ 
-                     background-color: black ; 
-                     text-decoration : none;}
-
-.fisiologia_line-height{line-height: 2.5rem}
-
-.fisiologia_listas {
-                     text-decoration: none;
-                     list-style: none;
-                     font-family: 'Anton', sans-serif; }
-
-
-
-ol li a {
-       text-decoration: none;
-       list-style: none
-                     }   
-                            
-                            
-                            
-.lista_posicion_fis{
-              position: relative;
-              } 
-                            
-.fisiologia_position_li_nav{
-              display: inline-block;
-              font-size: 23px;
-                            }
-                            
-.fisiologia_position__nav__img{
-              position: relative;
-              display: inline-block;
-              font-size: 23px;
-                            }                            
-
-
-.espacio_listas{
-       text-align: center;
-       text-decoration: none;
-}
-
-.list-style-type { list-style-type: none;}
-
-.color_titulos{
-       color:#FF0000 ;
-       font-weight: bolder;
-}
-
-.color_parrafos{
-       color: white;
-}
 
 
 /*HTML NOSOTROS*/

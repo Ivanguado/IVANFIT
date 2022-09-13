@@ -1,0 +1,21 @@
+body {
+  background-color: black; }
+  body header nav ul {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Anton', sans-serif;
+    position: relative; }
+  body article ol li a {
+    text-decoration: none;
+    list-style: none; }
+  body section article {
+    text-align: center;
+    text-decoration: none; }
+    body section article h4 {
+      color: #FF0000;
+      font-weight: bolder; }
+    body section article p {
+      color: white; }
+  body article {
+    text-align: center;
+    text-decoration: none; }
