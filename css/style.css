@@ -168,7 +168,7 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
 }
 
 /* Posicion del logo IVANFIT */
-       .Position__nav__img{
+       .Position__nav__img {
        
 }
 
@@ -390,8 +390,8 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
    }
 
    .video {
-       width: auto%;
-       height: auto%;
+       width: auto;
+       height: auto;
        margin: 50px 5%;
    }   
 
