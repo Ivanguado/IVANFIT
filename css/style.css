@@ -19,9 +19,8 @@ nav ul li a { text-decoration: none;
 
 nav ul {display: inline-block; }
 
-nav ul li {display: inline-block;
-       margin-top: 0;
-       margin-bottom: 0;
+nav ul li    {display: inline-block;
+              margin: 0px 20px;
 }  
 
 ul li a { text-decoration: none;
@@ -165,10 +164,11 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
        position: relative;
        margin: 0px 20px;
        font-size: 25px;
+       left: 5%;
 }
 
 /* Posicion del logo IVANFIT */
-       .Position__nav__img {
+       .Position__nav__img{
        
 }
 
@@ -533,14 +533,17 @@ grid-area:footer;
                      width: 400px;
                      height: 400px;}
                      
-.lista_posicion_ej{
+.lista_posicion{
        position: relative;
-       left: 300px;
+       left: 260px;
+       margin-top: 10px;
 } 
 
-.lista_posicion_{
-       display: inline-block;
-       font-size: 23px;
+.lista_posicion_ej{
+       position: relative;
+       left: 120px;
+       font-size: 25px;
+       margin: 0px;
 }
 
 .logo_ejercicio{
@@ -582,7 +585,7 @@ grid-area:footer;
 
 .color_nosotros{ background-image: linear-gradient(to right, #000000 , #000000 , #000000 , #000000 , #360404, #5c0808,  #a50d0d,  #ca0f0f, #db0e0e , #FF0033); }
 
-.tamaño_nav {
+.tamaño_nav{
 
 }
 
@@ -593,15 +596,17 @@ grid-area:footer;
 	       height: auto;
 	       display: inline-block; 
               color:#C0C0C0; 
+              margin: 0% 15%;
 }
 
 .listas_position_nos{
        position: relative;
+       left: 165px;
 } 
 
 .nosotros_position_li_nav{
        display: inline-block;
-       font-size: 23px;
+       font-size: 25px;
 }
 
 
@@ -633,12 +638,12 @@ grid-area:footer;
 
 .lista_position_con{
        position: relative;
-       left: 300px;
+       left: 165px;
 } 
 
 .position_li{
        display: inline-block;
-       font-size: 23px;
+       font-size: 25px;
 }
 
 .position__img{
