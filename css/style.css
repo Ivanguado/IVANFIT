@@ -390,9 +390,9 @@ body { background-image: url(../Logoparalapag/fondopesa.png);  }
    }
 
    .video {
-       width: auto;
-       height: auto;
-       margin: 50px 5%;
+       width: 80%;
+    height: auto;
+    margin: 125px 5%;
    }   
 
    .flexbox_article1 {
