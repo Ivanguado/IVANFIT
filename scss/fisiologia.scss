@@ -1,4 +1,4 @@
-
+/* Fisiologia */
 html{
 
       
@@ -12,57 +12,33 @@ body{background-color: $primary_colors ;
 
     background-image: url(../Logoparalapag/fondopesa.png); 
 
-
-
-
     header{
         nav{
-            a{  
-                color: $third_colors;
-                text-decoration: none;
+            .flexbox_nav{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+         }
+
+            ul{
                 position: relative;
-                display: inline-block;
-                font-size: 23px;
-            }
-        ul{
-            text-decoration: none;
-            list-style: none;
-            font-family: $secondary_typography;
-            position: relative;
-
-            display: inline-block;
-
-            position: relative;
-            left: 18px;
-            margin-bottom: 10px;
-          
-
-            li{
-                display: inline-block;
-                font-size: 23px;
-
-                display: inline-block;
-                margin: 0px 20px;
-
-                font-family: $secondary_typography
-
-
-                a{
-                    text-decoration: none;
-                    color:$third_colors;
-                    line-height: 2.5rem;
-
-                    font-family: $secondary_typography;
+                
+                li{
+                    padding: 10px;
+                    a{
+                        text-decoration: none;
+                        color: $third_colors;
+                        font-family: $secondary_typography;
+                      
+                    }
+                    display: inline-block;
+                    font-size: 25px;
                 }
             }
 
-        } /* The end ul */
-
-           }  /* The end Nav */
-
-
-    } /* the end header */
-
+        } /*The end nav*/ 
+    }/* The end header*/
 
 article { text-align: center;
         text-decoration: none;
@@ -166,47 +142,53 @@ section{
     }/* the end section */
 
 
-footer{       
-    display: inline;
+}  
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items:center;
-
-    section{  display: block;
-        font-family:$secondary_typography;
-        .font-family{
-            font-family: $secondary_typography;
-        }
-
-            h5{ display: inline;
-                color: $third_colors;
-                font-size: 18px;
-                font-family:$secondary_typography;
+footer{
+    .footer{
+        display: inline;
+    }
+    .flexbox_footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items:center;
+    }
+    section{
+            h2{
+                .footer_secciones1{
+                        display: inline;
+                        color: $third_colors;
+                        font-size: 18px;
+                        font-family: $secondary_typography;
+                }
+                    }
+            }
+    section{
+        
+            .footer_secciones2{
+            display: inline;
+            color: $third_colors;
+            font-size: 18px;
+            font-family:$secondary_typography;
             }
         
-}
-
-    section{
-            h2{ 
-                display: inline;
-                color:$third_colors;
-                font-size: 18px;
-                font-family:$secondary_typography;
-            }
-    }
-
+        }
     section{
             a{
-                img{
-                    width: 50px;
-                    height: auto;
-                    margin: 0px 10px;
+                img{ 
+                    
+                        width: 50px;
+                        height: auto;
+                        margin: 0px 10px;
+                     
                 }
             }
-            }
-}/* the end footer */
-}   
-}             
+            }         
+
+
+}
+
+
+}
