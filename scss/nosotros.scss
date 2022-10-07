@@ -1,0 +1,95 @@
+/*nosotros*/
+
+body{ 
+    header{
+        nav{
+            .flexbox_nav{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+         }
+
+            ul{
+                position: relative;
+                
+                li{
+                    padding: 10px;
+                    a{
+                        text-decoration: none;
+                        color: $third_colors;
+                        font-family: $secondary_typography;
+                      
+                    }
+                    display: inline-block;
+                    font-size: 25px;
+                }
+            }
+
+        } /*The end nav*/ 
+    }/* The end header*/
+
+
+    section{
+        article{
+            p{
+                line-height: 1.5rem;
+                text-align: center;
+                width: 70%;
+                height: auto;
+                display: inline-block; 
+                   color:$third_colors; 
+                   margin: 0% 15%;
+            }
+        }
+    }
+    
+    
+    footer{
+        .footer{
+            display: inline;
+        }
+        .flexbox_footer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items:center;
+        }
+        section{
+                
+                    .footer_secciones1{
+                            display: inline;
+                            color: $third_colors;
+                            font-size: 18px;
+                            font-family: $secondary_typography;
+                    }
+                        
+                }
+        section{
+            
+                .footer_secciones2{
+                display: inline;
+                color: $third_colors;
+                font-size: 18px;
+                font-family:$secondary_typography;
+                }
+            
+            }
+        section{
+                a{
+                    img{ 
+                        
+                            width: 50px;
+                            height: auto;
+                            margin: 0px 10px;
+                         
+                    }
+                }
+                }         
+
+
+    }
+
+
+}

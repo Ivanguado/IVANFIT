@@ -1,149 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap");
-html {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Roboto", sans-serif;
-}
-html body {
-  background-color: black;
-  text-decoration: none;
-  background-image: url(../Logoparalapag/fondopesa.png);
-  /* the end header */
-  /* the end article */
-  /* the end section */
-  /* the end section */
-  /* the end section */
-  /* the end footer */
-}
-html body header {
-  /* The end Nav */
-}
-html body header nav {
-  /* The end ul */
-}
-html body header nav a {
-  color: rgb(239, 239, 239);
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
-  font-size: 23px;
-}
-html body header nav ul {
-  text-decoration: none;
-  list-style: none;
-  font-family: "Anton", sans-serif;
-  position: relative;
-  display: inline-block;
-  position: relative;
-  left: 18px;
-  margin-bottom: 10px;
-}
-html body header nav ul li {
-  display: inline-block;
-  font-size: 23px;
-  display: inline-block;
-  margin: 0px 20px;
-  font-family: "Anton", sans-serif a;
-  font-family-text-decoration: none;
-  font-family-color: rgb(239, 239, 239);
-  font-family-line-height: 2.5rem;
-  font-family-font-family: "Anton", sans-serif;
-}
-html body article {
-  text-align: center;
-  text-decoration: none;
-}
-html body article h2 {
-  color: rgb(125, 4, 4);
-  font-weight: bolder;
-  text-decoration: none;
-}
-html body section {
-  /* the end article */
-  /* the end article */
-}
-html body section article {
-  text-align: center;
-  text-decoration: none;
-}
-html body section article h3 {
-  color: rgb(125, 4, 4);
-  font-weight: bolder;
-  text-decoration: none;
-}
-html body section article {
-  text-align: center;
-  text-decoration: none;
-  /* the end ol */
-}
-html body section article ol {
-  list-style-type: none;
-}
-html body section article ol li a {
-  color: rgb(239, 239, 239);
-}
-html body section {
-  /* the end article */
-  /* the end article */
-}
-html body section article {
-  text-align: center;
-  text-decoration: none;
-}
-html body section article h3 {
-  color: rgb(125, 4, 4);
-  font-weight: bolder;
-}
-html body section article {
-  text-align: center;
-  text-decoration: none;
-  /* the end ol */
-}
-html body section article ol {
-  list-style-type: none;
-}
-html body section article ol li a {
-  color: rgb(239, 239, 239);
-  text-decoration: none;
-}
-html body section article h4 {
-  color: rgb(125, 4, 4);
-  font-weight: bolder;
-}
-html body section article p {
-  color: rgb(239, 239, 239);
-}
-html body footer {
-  display: inline;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-html body footer section {
-  display: block;
-  font-family: "Anton", sans-serif;
-}
-html body footer section .font-family {
-  font-family: "Anton", sans-serif;
-}
-html body footer section h5 {
-  display: inline;
-  color: rgb(239, 239, 239);
-  font-size: 18px;
-  font-family: "Anton", sans-serif;
-}
-html body footer section h2 {
-  display: inline;
-  color: rgb(239, 239, 239);
-  font-size: 18px;
-  font-family: "Anton", sans-serif;
-}
-html body footer section a img {
-  width: 50px;
-  height: auto;
-  margin: 0px 10px;
-}
+/* Error: expected ":".
+ *   ,
+ * 2 |     $primary_colors
+ *   |                    ^
+ *   '
+ *   scss\contacto.scss 2:20  @import
+ *   scss\main.scss 4:9       root stylesheet */
 
-/*# sourceMappingURL=main.scss.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ":".\a   \2577 \a 2 \2502      $primary_colors\d\a   \2502                     ^\a   \2575 \a   scss\\contacto.scss 2:20  @import\a   scss\\main.scss 4:9       root stylesheet';
+}
