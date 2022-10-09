@@ -2,12 +2,7 @@
 
 /*HTML INDEX*/
 
-.flexbox_nav{
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-       justify-content: center;
-}
+
 
 .imagenes__section{
        display: inline;
@@ -31,10 +26,7 @@ display: flex;
 
 }
 
-.lexbox_article0{
-display: flex;
 
-}
 /* Mediaqueries Mobile */
 @media screen and (min-width:370px){
 .body{
@@ -56,14 +48,16 @@ background-color: black;
 }
 
 .index__listas {
-text-decoration: none;
-list-style: none;
-font-family: 'Anton', sans-serif; 
-position: relative;
-margin: 0px 20px;
-font-size: 25px;
-left: 5%;
-}
+       text-decoration: none;
+       list-style: none;
+       font-family: 'Anton', sans-serif; 
+       position: relative;
+       margin: 0px 20px;
+       font-size: 25px;
+       left: 5%;
+       }
+       
+
 
 /* Posicion del logo IVANFIT */
 .Position__nav__img{
